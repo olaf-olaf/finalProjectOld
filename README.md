@@ -7,4 +7,16 @@ Musicians like to jam all day long. However, when there's a jam going on in plac
 
 ![](doc/sketch.png)
 
+## External libraries
+
+For this project I will either use the AVAudioPlayer class in swift or the audiokit library. Audiokit has more potential for extending functionality of the app than AVAudioPLayer but is really synthesis focused instead of sample focused. I have to consider whether audiokit will reduce the amount of code needed to implement this project. 
+
+## Decompsing the app
+
+### View
+
+### Model
+
+### Controller
+
 
