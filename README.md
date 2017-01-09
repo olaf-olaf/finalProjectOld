@@ -1,3 +1,8 @@
+- Olaf Kroon
+- 10787321
+- 9.01.2017
+
+
 # finalProject
 A sample based digital drumpad for your iPhone. 
 
