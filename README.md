@@ -47,3 +47,4 @@ In the initial design of this app users can only select drumkits and play those 
 
 ## Similar apps
 
+There are quite a few similar apps in the app store. Most of these apps are focused on emulating an ableton like sample mixing experience to the user instead of an SPD like drum pad expierence. Most of the apps in the app store have extra features such as playing along with songs and playing entire pieces of music with a single tap as well.
