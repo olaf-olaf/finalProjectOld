@@ -6,7 +6,7 @@ Musicians like to jam all day long. However, when there's a jam going on in plac
 
 
 ![](doc/sketch.png)
-_the most basic app design_
+                                                    _the most basic app design_
 
 ## External libraries
 
