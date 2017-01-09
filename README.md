@@ -25,6 +25,13 @@ The only data this app needs to save are some small audio files. These will prob
 
 The view and the model will work together via the controller. Samples will be triggerd via buttons and drum kits will be selected via a drop down menu. 
 
-## Possible Problems
+## Possible Problems / limitations
 
+- Not being able to play two sounds simultaneously
+
+This problem could arise if an audio player can only play one file at the time. The obvious solution for this problem is to use one audio player for each trigger.
+
+- Mixing sound without code
+
+Mixing the samples outside of Xcode (for example volume, EQ and panning) will save lots of code. However, it could create a problem when adding features that enable users to mix their sounds in app.
 
