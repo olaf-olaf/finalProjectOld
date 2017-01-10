@@ -11,6 +11,27 @@ The app will be created using object oriented programming. Every pad on the drum
 
 ```swift
 
+class DrumPad {
+
+
+  init {
+
+  }
+
+  var reverbParameter = 0
+  var distortionParameter = 0
+  var delayParameter = 0
+  var audiofile = path/to/audiofile
+
+  Method playAudio (audiofile: any, reverbParemeter: Int, distortionParameter: Int, delayParameter: Int) {
+    // Play the audiofile with the given amount of FX.
+
+  }
+
+
+
+}
+
 
 
 ```
