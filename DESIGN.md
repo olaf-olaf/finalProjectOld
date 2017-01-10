@@ -66,5 +66,9 @@ View one consists of 4 drum pads, a library button that activates a drop down me
 
 View two consist of 2 sliders that can represent a value beteen 0 and 100. These numbers represent the wetness (the amount of dry audio signal affected by the effects) of these effects. Once the user presses back the addFx method is called to update the new FX settings and then returns to view 1. 
 
+## Frameworks
+
+To create this app the AudioKit Library will be used. Audiokit is an extensive library used for audioprocessing in Swift.
+
 
 
