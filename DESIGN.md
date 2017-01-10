@@ -9,7 +9,7 @@ The app will be created using object oriented programming. Every pad on the drum
 
 ### Drumpad design
 
-The DrumPad class represents a pad on the interface. Every object can store a sample and data regarding the amount of effects used. The class has one method that plays the audiofile.
+The DrumPad class represents a pad on the interface. Every object can store a sample and data regarding the amount of effects used. The class has one method that plays an audiofile.
 
 ```swift
 
@@ -31,6 +31,8 @@ class DrumPad {
 
 ### DrumController design
 
+The DrumController class will create a singleton that is used to control the drumpads. It stores a DrumPad class for each pad on the interface. It also has two methods. One for replaceing the hits of every pad when the users selects a new drumkit and one for changing the amount of effects used on the samples. 
+
 ``` Swift
 class DrumController {
 
@@ -49,9 +51,7 @@ class DrumController {
   
   func addFx (reverbWetness : Int, distortionWetness : Int, delayWetness: Int) {
       // Manipulate the amount of fx on the output of the drum machine
-  }
-    
+  }   
 }
-
 ```
 
