@@ -31,7 +31,7 @@ class DrumPad {
 
 ### DrumController design
 
-The DrumController class will create a singleton that is used to control the drumpads. It stores a DrumPad class for each pad on the interface. It also has two methods. One for replaceing the hits of every pad when the users selects a new drumkit and one for changing the amount of effects used on the samples. 
+The DrumController class will create a singleton that is used to control the drumpads. It stores a DrumPad class for each pad on the interface. It also has two methods. One for replacing the hits of every pad when the users selects a new drumkit and one for changing the amount of effects used on the samples. 
 
 ``` Swift
 class DrumController {
