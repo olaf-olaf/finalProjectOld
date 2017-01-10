@@ -7,6 +7,14 @@ Olaf Kroon
 
 The app will be created using object oriented programming. Every pad on the drum machine will be represented by a class called DrumPad . The entire drum machine will be controlled using a singleton called DrumController.
 
+### Drumpad design
+
+```swift
+
+
+
+```
+
 ### DrumController design
 
 ``` Swift
