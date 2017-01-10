@@ -56,5 +56,15 @@ class DrumController {
 ```
 ## Views
 
+ ![](doc/sketch.png)
+ 
+ ### view 2
+ 
+View one consists of 4 drum pads, a library button that activates a drop down menu and a FX button that segue's to a FX mixer. Pressing a drumpad will trigger the playaudio method from the corresponding DrumPad object. Selecting a drum kit in the drop down menu triggers the replace function in the singleton to update the samples used by the drum machine. 
+
+### View 2
+
+View 2 consist of 2 sliders that can represent a value beteen 0 and 100. These numbers represent the wetness (the amount of dry audio signal affected by the effects) of these effects. Once the user presses back the addFx method is called to update the new FX settings and then returns to view 1. 
+
 
 
