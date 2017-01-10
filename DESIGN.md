@@ -12,7 +12,7 @@ The app will be created using object oriented programming. Every pad on the drum
 ``` Swift
 class DrumController {
 
-  init = SharedInstance
+  DrumController = SharedInstance
   privit init {
   }
   
