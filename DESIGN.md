@@ -9,15 +9,15 @@ The app will be created using object oriented programming. Every pad on the drum
 
 ### Drumpad design
 
+The DrumPad class represents a pad on the interface. Every object can store a sample and data regarding the amount of effects used. The class has one method that plays the audiofile.
+
 ```swift
 
 class DrumPad {
-
-
   init {
 
   }
-
+  
   var reverbParameter = 0
   var distortionParameter = 0
   var delayParameter = 0
@@ -25,15 +25,8 @@ class DrumPad {
 
   Method playAudio (audiofile: any, reverbParemeter: Int, distortionParameter: Int, delayParameter: Int) {
     // Play the audiofile with the given amount of FX.
-
   }
-
-
-
 }
-
-
-
 ```
 
 ### DrumController design
@@ -49,7 +42,6 @@ class DrumController {
   var DrumPad = HiHat
   var DrumPad = Snare
   var DrumPad = Tom
-  
   
   func replaceHits (drumKit: String) {
       // Replace the sound of every pad 
